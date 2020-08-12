@@ -7,3 +7,5 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+Coming Soon, Inshallah!!!
