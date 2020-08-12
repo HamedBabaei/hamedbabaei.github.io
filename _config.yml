@@ -83,9 +83,9 @@ author:
   name             : "Hamed Babaei Giglou"
   avatar           : "hamed.jpg"
   bio              : "I am M.Sc Student of Soft Computing and Data Scientist at YapAiTek"
-  location         : "Location"
+  location         :
   employer         :
-  pubmed           : # #
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Sehm6tMAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Hamed_Babaei_Giglou"
@@ -96,17 +96,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/HamedBabaei"
+  github           : "HamedBabaei"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/hamedbabaeigiglou/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "hamedbabaeigiglou/"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/7739879/hamed"
+  stackoverflow    : "7739879/hamed"
   steam            :
   tumblr           :
   twitter          : 
