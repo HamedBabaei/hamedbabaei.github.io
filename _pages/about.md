@@ -15,4 +15,4 @@ I got my bachelor's degree in Computer Science from the University of Mohaghegh 
 
 I am interested in areas such as Machine learning, Natural Language Processing, Deep Learning, and Data Science. I have experiences in both academic and industrial perspectives.
 
-You can reach me at `hamedbabaeigiglou@gmail.com` at any time of earth.
+You can reach me at [**`hamedbabaeigiglou@gmail.com`**](mailto:hamedbabaeigiglou@gmail.com) at any time of earth.
