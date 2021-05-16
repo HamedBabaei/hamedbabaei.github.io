@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Personal Website"
+title: "Welcome to my personal website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,3 +14,5 @@ I am an NLP researcher and Senior Data Scientist at DataCoLab, besides that I am
 I got my bachelor's degree in Computer Science from the University of Mohaghegh Ardabili, Ardabil, Iran. I joined a Master's program in soft computing and AI at the University of Tabriz, Tabriz, IR in 2019.  
 
 I am interested in areas such as Machine learning, Natural Language Processing, Deep Learning, and Data Science. I have experiences in both academic and industrial perspectives.
+
+You can reach me at `hamedbabaeigiglou@gmail.com` at any time of earth.
