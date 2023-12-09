@@ -1,0 +1,45 @@
+.left-section {
+    float: left;
+}
+
+.right-section {
+    float: right;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+.nav a {
+    color: #dad9d9; /* Use the default text color */
+    text-decoration: none; /* Remove underlines */
+}
+.nav a:hover {
+    text-decoration: none; /* Remove underlines on hover */
+}
+
+/* Style for the navigation links on the right */
+.navigation-links {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.navigation-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-icons li img {
+    width: 35px; /* Set the desired width */
+    height: 35px; /* Set the desired height */
+    /* Adjust width and height as needed */
+    border-radius: 50%;
+}
