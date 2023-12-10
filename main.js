@@ -17,6 +17,9 @@ async function navigate(page) {
         case 'project':
             content = await loadPage('project');
             break;
+        case 'experience':
+            content = await loadPage('experience');
+            break;
         default:
             break;
     }
