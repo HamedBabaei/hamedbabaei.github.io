@@ -46,3 +46,16 @@
     /* Adjust width and height as needed */
     border-radius: 50%;
 }
+footer {
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 0;
+}

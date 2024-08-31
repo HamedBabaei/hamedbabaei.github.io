@@ -1,5 +1,3 @@
-// bibtexParser.js
-
 // Function to read the BibTeX data from a file
 export async function loadBibtexFile(filePath) {
     try {
@@ -10,10 +8,9 @@ export async function loadBibtexFile(filePath) {
         return await response.text();
     } catch (error) {
         console.error("Error loading BibTeX file:", error);
-        throw error; // Re-throw the error to be caught by the caller
+        return 'Error loading BibTeX file: ' + error.message;
     }
 }
-
 
 // Function to parse BibTeX entries
 export function parseBibTex(bibText) {
@@ -72,43 +69,16 @@ export function generateHTML(papersByYear) {
             const pages = paper.pages ? `, ${paper.pages}` : '';
             const publisher = paper.publisher ? `, ${paper.publisher}` : '';
             const organization = paper.organization ? `, ${paper.organization}` : '';
-            const doi = paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">Link to paper</a>` : '';
+            const doi = paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank">${paper.doi}</a>` : '';
+            const url = paper.url  || '';
 
             html += `
                 <div class="paper-entry">
-                    <strong>${authors}</strong>. ${title}. 
-                    <em>${booktitle || journal}</em>${pages}${publisher}${organization}, ${paper.year}.
-                    <br />
-                    ${doi}
+                    ${authors}. <a href="${url}">${title}</a>. 
+                    <em>${booktitle || journal}</em>${pages}${publisher}${organization}, ${paper.year}. ${doi}.
                 </div>`;
         });
     });
 
     return html;
 }
-
-// async function loadAndRenderPublications(filePath) {
-//     const contentDiv = document.getElementById('content');
-//     const bibText = await loadBibtexFile(filePath);
-//     const papers = parseBibTex(bibText);
-//     const papersByYear = groupPapersByYear(papers);
-//     const htmlContent = generateHTML(papersByYear);
-//     contentDiv.innerHTM = htmlContent;
-// }
-
-
-
-async function loadAndRenderPublications() {
-    const contentDiv = document.getElementById('content');
-    const filePath='assets/publications.txt'
-    const bibText = await loadBibtexFile(filePath);
-    const papers = parseBibTex(bibText);
-    const papersByYear = groupPapersByYear(papers);
-    const htmlContent = generateHTML(papersByYear);
-    contentDiv.innerHTM = htmlContent;
-}
-
-
-// Initially load the home page
-// loadAndRenderPublications('assets/publications.txt');
-

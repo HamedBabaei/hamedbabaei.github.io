@@ -1,169 +1,394 @@
-@inproceedings{rahgouy2019cross,
-title={Cross-domain Authorship Attribution: Author Identification using a Multi-Aspect Ensemble Approach.},
-author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Sheykhlan, Mohammad Karami and Mohammadzadeh, Erfan},
-booktitle={CLEF (Working Notes)},
-year={2019}
+@inproceedings{rahgouy-2019-crossdomain,
+  author    = {Mostafa Rahgouy and
+               <b>Hamed Babaei Giglou</b> and
+               Taher Rahgooy and
+               Mohammad Karami Sheykhlan and
+               Erfan Mohammadzadeh},
+  editor    = {Linda Cappellato and
+               Nicola Ferro and
+               David E. Losada and
+               Henning Muller},
+  title     = {Cross-domain Authorship Attribution: Author Identification using a
+               Multi-Aspect Ensemble Approach},
+  booktitle = {Working Notes of CLEF 2019 - Conference and Labs of the Evaluation
+               Forum, Lugano, Switzerland, September 9-12, 2019},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2380},
+  publisher = {CEUR-WS.org},
+  year      = {2019},
+  url       = {https://ceur-ws.org/Vol-2380/paper_195.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/RahgouyGRSM19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{giglou2020lsaconet,
-title={LSACoNet: A Combination of Lexical and Conceptual Features for Analysis of Fake News Spreaders on Twitter.},
-author={Giglou, Hamed Babaei and Razmara, Jafar and Rahgouy, Mostafa and Sanaei, Mahsa},
-booktitle={CLEF (Working Notes)},
-year={2020}
+@inproceedings{giglou-2020-lsaconet,
+  author    = {<b>Hamed Babaei Giglou</b> and
+               Jafar Razmara and
+               Mostafa Rahgouy and
+               Mahsa Sanaei},
+  editor    = {Linda Cappellato and
+               Carsten Eickhoff and
+               Nicola Ferro and
+               Aurelie Neveol},
+  title     = {LSACoNet: A Combination of Lexical and Conceptual Features for Analysis
+               of Fake News Spreaders on Twitter},
+  booktitle = {Working Notes of CLEF 2020 - Conference and Labs of the Evaluation
+               Forum, Thessaloniki, Greece, September 22-25, 2020},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2696},
+  publisher = {CEUR-WS.org},
+  year      = {2020},
+  url       = {https://ceur-ws.org/Vol-2696/paper\_124.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/GiglouRRS20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{rahgouy2018author,
-title={Author Masking Directed by Author's Style},
-author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Zeynali, Hasan and Rasouli, Salar Khayat Mirza},
-booktitle={CLEF 2018},
-pages={1--6},
-year={2018}
+@inproceedings{rahgouy-2018-author,
+  author    = {Mostafa Rahgouy and
+               <b>Hamed Babaei Giglou</b> and
+               Taher Rahgooy and
+               Hasan Zeynali and
+               Salar Khayat Mirza Rasouli},
+  editor    = {Linda Cappellato and
+               Nicola Ferro and
+               Jian-Yun Nie and
+               Laure Soulier},
+  title     = {Author Masking Directed by Author's Style: Notebook for PAN at CLEF}
+               2018},
+  booktitle = {Working Notes of CLEF 2018 - Conference and Labs of the Evaluation
+               Forum, Avignon, France, September 10-14, 2018},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2125},
+  publisher = {CEUR-WS.org},
+  year      = {2018},
+  url       = {https://ceur-ws.org/Vol-2125/paper_172.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/RahgouyGRZR18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{giglou2019author,
-title={Author Profiling: Bot and Gender Prediction using a Multi-Aspect Ensemble Approach},
-author={Giglou, Hamed Babaei and Rahgouy, Mostafa and Rahgooy, Taher and Sheykhlan, Mohammad Karami and Mohammadzadeh, Erfan},
-booktitle={CLEF (Working Notes)},
-year={2019},
-organization={CEUR-WS.org}
+
+@inproceedings{giglou-2019-author,
+  author    = {<b>Hamed Babaei Giglou</b> and
+               Mostafa Rahgouy and
+               Taher Rahgooy and
+               Mohammad Karami Sheykhlan and
+               Erfan Mohammadzadeh},
+  editor    = {Linda Cappellato and
+               Nicola Ferro and
+               David E. Losada and
+               Henning Muller},
+  title     = {Author Profiling: Bot and Gender Prediction using a Multi-Aspect Ensemble
+               Approach},
+  booktitle = {Working Notes of CLEF 2019 - Conference and Labs of the Evaluation
+               Forum, Lugano, Switzerland, September 9-12, 2019},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2380},
+  publisher = {CEUR-WS.org},
+  year      = {2019},
+  url       = {https://ceur-ws.org/Vol-2380/paper_231.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/GiglouRRSM19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{giglou2021profiling,
-title={Profiling Haters on Twitter using Statistical and Contextualized Embeddings.},
-author={Giglou, Hamed Babaei and Rahgooy, Taher and Razmara, Jafar and Rahgouy, Mostafa and Rahgooy, Zahra},
-booktitle={CLEF (Working Notes)},
-pages={1813--1821},
-year={2021}
+
+@inproceedings{giglou-2021-profiling,
+  author    = {<b>Hamed Babaei Giglou</b> and
+               Taher Rahgooy and
+               Jafar Razmara and
+               Mostafa Rahgouy and
+               Zahra Rahgooy},
+  editor    = {Guglielmo Faggioli and
+               Nicola Ferro and
+               Alexis Joly and
+               Maria Maistro and
+               Florina Piroi},
+  title     = {Profiling Haters on Twitter using Statistical and Contextualized Embeddings},
+  booktitle = {Proceedings of the Working Notes of CLEF 2021 - Conference and Labs
+               of the Evaluation Forum, Bucharest, Romania, September 21st - to -
+               24th, 2021},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2936},
+  pages     = {1813--1821},
+  publisher = {CEUR-WS.org},
+  year      = {2021},
+  url       = {https://ceur-ws.org/Vol-2936/paper-154.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/GiglouRRRR21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{babaei2021uot,
-title={UoT-UWF-PartAI at SemEval-2021 Task 5: Self Attention Based Bi-GRU with Multi-Embedding Representation for Toxicity Highlighter},
-author={Babaei Giglou, Hamed and Rahgooy, Taher and Rahgouy, Mostafa and Razmara, Jafar},
-booktitle={Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)},
-pages={948--952},
-year={2021}
+@inproceedings{giglou-2022-profiling,
+  author    = {<b>Hamed Babaei Giglou</b> and
+               Mostafa Rahgouy and
+               Ali Rahmati and
+               Taher Rahgooy and
+               Cheryl D. Seals},
+  editor    = {Guglielmo Faggioli and
+               Nicola Ferro and
+               Allan Hanbury and
+               Martin Potthast},
+  title     = {Profiling Irony and Stereotype Spreaders with Encoding Dependency
+               Information using Graph Convolutional Network},
+  booktitle = {Proceedings of the Working Notes of CLEF 2022 - Conference and Labs
+               of the Evaluation Forum, Bologna, Italy, September 5th - to - 8th,
+               2022},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {3180},
+  pages     = {2391--2401},
+  publisher = {CEUR-WS.org},
+  year      = {2022},
+  url       = {https://ceur-ws.org/Vol-3180/paper-190.pdf},
+  biburl    = {https://dblp.org/rec/conf/clef/GiglouRRRS22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{rahgouy2022null,
-title={Null at semeval-2022 task 6: Intended sarcasm detection using stylistically fused contextualized representation and deep learning},
-author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Seals, Cheryl},
-booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)},
-pages={862--870},
-year={2022}
+
+
+@inproceedings{babaei-giglou-etal-2021-uot,
+    title = {UoT-UWF-PartAI at SemEval-2021 Task 5: Self Attention Based Bi-GRU with Multi-Embedding Representation for Toxicity Highlighter},
+    author = {<b>Babaei Giglou, Hamed</b>  and
+      Rahgooy, Taher  and
+      Rahgouy, Mostafa  and
+      Razmara, Jafar},
+    editor = {Palmer, Alexis  and
+      Schneider, Nathan  and
+      Schluter, Natalie  and
+      Emerson, Guy  and
+      Herbelot, Aurelie  and
+      Zhu, Xiaodan},
+    booktitle = {Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)},
+    month = {aug},
+    year = {2021},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2021.semeval-1.129},
+    doi = {10.18653/v1/2021.semeval-1.129},
+    pages = {948--952},
 }
 
-@inproceedings{giglou2022profiling,
-title={Profiling Irony and Stereotype Spreaders with Encoding Dependency Information using Graph Convolutional Network.},
-author={Giglou, Hamed Babaei and Rahgouy, Mostafa and Rahmati, Ali and Rahgooy, Taher and Seals, Cheryl D},
-booktitle={CLEF (Working Notes)},
-pages={2391--2401},
-year={2022}
+
+@inproceedings{rahgouy-etal-2022-null,
+    title = {NULL at SemEval-2022 Task 6: Intended Sarcasm Detection Using Stylistically Fused Contextualized Representation and Deep Learning},
+    author = "Rahgouy, Mostafa  and
+      <b>Babaei Giglou, Hamed</b>  and
+      Rahgooy, Taher  and
+      Seals, Cheryl",
+    editor = "Emerson, Guy  and
+      Schluter, Natalie  and
+      Stanovsky, Gabriel  and
+      Kumar, Ritesh  and
+      Palmer, Alexis  and
+      Schneider, Nathan  and
+      Singh, Siddharth  and
+      Ratan, Shyam",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.120",
+    doi = "10.18653/v1/2022.semeval-1.120",
+    pages = "862--870",
+    abstract = "The intended sarcasm cannot be understood until the listener observes that the text{'}s literal meaning violates truthfulness. Consequently, words and meanings play an essential role in specifying sarcasm. Enriched feature extraction techniques were proposed to capture both words and meanings in the contexts. Due to the overlapping features in sarcastic and non-sarcastic texts, a CNN model extracts local features from the combined class-dependent statistical embedding of sarcastic texts with contextualized embedding. Another component BiLSTM extracts long dependencies from combined non-sarcastic statistical and contextualized embeddings. This work combines a classifier that uses the combined high-level features of CNN and BiLSTM for sarcasm detection to produce the final predictions. The experimental analysis presented in this paper shows the effectiveness of the proposed method.",
 }
 
-@misc{farokhshad2021virapart,
-title={ViraPart: A Text Refinement Framework for Automatic Speech Recognition and Natural Language Processing Tasks in Persian},
-author={Farokhshad, Narges and Molazadeh, Milad and Jamalabbasi, Saman and Giglou, Hamed Babaei and Bibak, Saeed},
-journal={International Journal of Electronics and Communication Engineering},
-year={2021}
+@misc{farokhshad2021viraparttextrefinementframework,
+      title={ViraPart: A Text Refinement Framework for Automatic Speech Recognition and Natural Language Processing Tasks in Persian},
+      author={Narges Farokhshad and Milad Molazadeh and Saman Jamalabbasi and <b>Hamed Babaei Giglou</b> and Saeed Bibak},
+      year={2021},
+      doi={2110.09086},
+      publisher={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2110.09086},
 }
 
-@inproceedings{giglou2022parssimpleqa,
-title={ParsSimpleQA: The Persian Simple Question Answering Dataset and System over Knowledge Graph},
-author={Giglou, Hamed Babaei and Beyranvand, Niloufar and Moradi, Reza and Salehoof, Amir Mohammad and Bibak, Saeed},
-booktitle={Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities},
-pages={59--68},
-year={2022}
+@inproceedings{babaei-giglou-etal-2022-parssimpleqa,
+    title = "ParsSimpleQA: The Persian Simple Question Answering Dataset and System over Knowledge Graph",
+    author = "<b>Babaei Giglou, Hamed</b>  and
+      Beyranvand, Niloufar  and
+      Moradi, Reza  and
+      Salehoof, Amir Mohammad  and
+      Bibak, Saeed",
+    editor = {H{\"a}m{\"a}l{\"a}inen, Mika  and
+      Alnajjar, Khalid  and
+      Partanen, Niko  and
+      Rueter, Jack},
+    booktitle = "Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities",
+    month = nov,
+    year = "2022",
+    address = "Taipei, Taiwan",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.nlp4dh-1.9",
+    pages = "59--68",
+    abstract = "The simple question answering over the knowledge graph concerns answering single-relation questions by querying the facts in the knowledge graph. This task has drawn significant attention in recent years. However, there is a demand for a simple question dataset in the Persian language to study open-domain simple question answering. In this paper, we present the first Persian single-relation question answering dataset and a model that uses a knowledge graph as a source of knowledge to answer questions. We create the ParsSimpleQA dataset semi-automatically in two steps. First, we build single-relation question templates. Next, we automatically create simple questions and answers using templates, entities, and relations from Farsbase. To present the reliability of the presented dataset, we proposed a simple question-answering system that receives questions and uses deep learning and information retrieval techniques for answering questions. The experimental results presented in this paper show that the ParsSimpleQA dataset is very promising for the Persian simple question-answering task.",
 }
 
-@inproceedings{oskuee2023tm,
-title={TM Scanlon at SemEval-2023 Task 4: Leveraging Pretrained Language Models for Human Value Argument Mining with Contrastive Learning},
-author={Oskuee, Milad Molazadeh and Rahgouy, Mostafa and Giglou, Hamed Babaei and Seals, Cheryl D},
-booktitle={Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)},
-pages={603--608},
-year={2023}
+
+@inproceedings{molazadeh-oskuee-etal-2023-scanlon,
+    title = "T.M. Scanlon at SemEval-2023 Task 4: Leveraging Pretrained Language Models for Human Value Argument Mining with Contrastive Learning",
+    author = "Molazadeh Oskuee, Milad  and
+      Rahgouy, Mostafa  and
+      <b>Babaei Giglou, Hamed</b>  and
+      D Seals, Cheryl",
+    editor = {Ojha, Atul Kr.  and
+      Dougruoz, A. Seza  and
+      Da San Martino, Giovanni  and
+      Tayyar Madabushi, Harish  and
+      Kumar, Ritesh  and
+      Sartori, Elisa},
+    booktitle = "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.semeval-1.82",
+    doi = "10.18653/v1/2023.semeval-1.82",
+    pages = "603--608",
+    abstract = "Human values are of great concern to social sciences which refer to when people have different beliefs and priorities of what is generally worth striving for and how to do so. This paper presents an approach for human value argument mining using contrastive learning to leverage the isotropy of language models. We fine-tuned DeBERTa-Large in a multi-label classification fashion and achieved an F1 score of 49{\%} for the task, resulting in a rank of 11. Our proposed model provides a valuable tool for analyzing arguments related to human values and highlights the significance of leveraging the isotropy of large language models for identifying human values.",
 }
 
-@article{alam2023automated,
-title={Automated clinical knowledge graph generation framework for evidence based medicine},
-author={Alam, Fakhare and Giglou, Hamed Babaei and Malik, Khalid Mahmood},
-journal={Expert Systems with Applications},
-volume={233},
-pages={120964},
-year={2023},
-publisher={Elsevier}
+
+@article{ALAM2023120964,
+title = {Automated clinical knowledge graph generation framework for evidence based medicine},
+journal = {Expert Systems with Applications},
+volume = {233},
+pages = {120964},
+year = {2023},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2023.120964},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417423014665},
+author = {Fakhare Alam and <b>Hamed Babaei Giglou</b> and Khalid Mahmood Malik},
+keywords = {Knowledge Graph, Healthcare Knowledge Graph, Deep Learning, Ontology, COVID-19, Cerebral Aneurysm, PICO, Evidence Based Medicine, Contextualization},
+abstract = {To practice the evidence-based medicine, clinicians are interested to find the most suitable research for the clinical decision making. The use of knowledge graphs (KGs) in evidence-based clinical decision support systems is becoming increasingly popular. However, existing KG construction frameworks are not fully automated and contextualized, thus unable to adapt to new domains and incorporate constantly changing information into their knowledge base, resulting in loss of relevance over time. Furthermore, existing KGs construction frameworks don't generate KG that provide relevant information within an acceptable response time for evidence-based practitioners because the organization of constructed subgraphs is neither topic-specific nor evidence-based PICO (Participants/Problem P, Intervention-I, Comparison C, Outcome O) query-friendly. By employing concept extraction, semantic enrichment, optimized clustering, and state of art Recurrent Neural Networks (RNNs) with BioBERT based encoded representation to categorize PICO elements and predict relationships between concepts using huge corpus of publicly available literature on COVID-19 and cerebral aneurysm, this paper proposes a topic specific, PICO enabled, and fully automated framework to curate information and create KG of different clinical domains. The evaluation shows that the proposed framework achieves significant improvement over baseline models and has 93 %, and 82 % accuracy on aneurysm and COVID data set respectively for PICO classification. Also, the relationship extraction module has an accuracy of 96 % with precision and recall being 92 %, and 90 % respectively.}
 }
 
-@article{giglou2023leveraging,
-title={Leveraging large language‌ models with multiple loss learners for few-shot author profiling},
-author={Giglou, Hamed Babaei and Rahgouy, Mostafa and D’Souza, Jennifer and Molazadeh Oskuee, Milad and Tekanlou, Hadi Bayrami Asl and Seals, Cheryl D},
-journal={Working Notes of CLEF},
-year={2023}
+@InProceedings{giglou:2023,
+  author =                   {<b>Hamed Babaei Giglou</b> and Mostafa Rahgouy and Jennifer D'Souzav Milad Molazadeh Oskuee and Hadi Bayrami Asl Tekanlou and Cheryl D Seals},
+  booktitle =                {Working Notes of CLEF 2023 - Conference and Labs of the Evaluation Forum},
+  editor =                   {Mohammad Aliannejadi and Guglielmo Faggioli and Nicola Ferro and Michalis Vlachos},
+  month =                    sep,
+  pages =                    {2539--2551},
+  publisher =                {CEUR-WS.org},
+  title =                    {Leveraging Large Language Models with Multiple Loss Learners for Few-Shot Author Profiling},
+  url =                      {https://ceur-ws.org/Vol-3497/paper-203.pdf},
+  year =                     {2023}
 }
 
-@inproceedings{rahgouy2023navigating,
-title={Navigating the Fermi Multiverse: Assessing LLMs for Complex Multi-hop Queries.},
-author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Feng, Dongji and Rahgooy, Taher and Dozier, Gerry V and Seals, Cheryl D},
-booktitle={NL4AI@ AI* IA},
-year={2023}
+
+@inproceedings{DBLP:conf/nl4ai/RahgouyGFRDS23,
+  author       = {Mostafa Rahgouy and
+                  <b>Hamed Babaei Giglou</b> and
+                  Dongji Feng and
+                  Taher Rahgooy and
+                  Gerry V. Dozier and
+                  Cheryl D. Seals},
+  editor       = {Elisa Bassignana and
+                  Dominique Brunato and
+                  Marco Polignano and
+                  Alan Ramponi},
+  title        = {Navigating the Fermi Multiverse: Assessing LLMs for Complex Multi-hop
+                  Queries},
+  booktitle    = {Proceedings of the Seventh Workshop on Natural Language for Artificial
+                  Intelligence (NL4AI 2023) co-located with 22th International Conference
+                  of the Italian Association for Artificial Intelligence (AIxIA 2023),
+                  Rome, Italy, November 6th-7th, 2023},
+  series       = {CEUR Workshop Proceedings},
+  volume       = {3551},
+  publisher    = {CEUR-WS.org},
+  year         = {2023},
+  url          = {https://ceur-ws.org/Vol-3551/paper9.pdf},
+  timestamp    = {Fri, 08 Dec 2023 14:24:28 +0100},
+  biburl       = {https://dblp.org/rec/conf/nl4ai/RahgouyGFRDS23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@InProceedings{10.1007/978-3-031-47240-4_22,
+author="<b>Babaei Giglou, Hamed</b>
+and D'Souza, Jennifer
+and Auer, Sören",
+editor="Payne, Terry R.
+and Presutti, Valentina
+and Qi, Guilin
+and Poveda-Villal{\'o}n, Mar{\'i}a
+and Stoilos, Giorgos
+and Hollink, Laura
+and Kaoudi, Zoi
+and Cheng, Gong
+and Li, Juanzi",
+title="LLMs4OL: Large Language Models for Ontology Learning",
+booktitle="The Semantic Web -- ISWC 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="408--427",
+abstract="We propose the LLMs4OL approach, which utilizes Large Language Models (LLMs) for Ontology Learning (OL). LLMs have shown significant advancements in natural language processing, demonstrating their ability to capture complex language patterns in different knowledge domains. Our LLMs4OL paradigm investigates the following hypothesis: Can LLMs effectively apply their language pattern capturing capability to OL, which involves automatically extracting and structuring knowledge from natural language text? To test this hypothesis, we conduct a comprehensive evaluation using the zero-shot prompting method. We evaluate nine different LLM model families for three main OL tasks: term typing, taxonomy discovery, and extraction of non-taxonomic relations. Additionally, the evaluations encompass diverse genres of ontological knowledge, including lexicosemantic knowledge in WordNet, geographical knowledge in GeoNames, and medical knowledge in UMLS.",
+isbn="978-3-031-47240-4",
+doi="https://doi.org/10.1007/978-3-031-47240-4_22"
 }
 
-@inproceedings{babaei2023llms4ol,
-title={LLMs4OL: Large Language Models for Ontology Learning},
-author={Babaei Giglou, Hamed and D’Souza, Jennifer and Auer, S{\"o}ren},
-booktitle={International Semantic Web Conference},
-pages={408--427},
-year={2023},
-organization={Springer}
+
+@inproceedings{10.1007/978-3-031-56072-9_4,
+author = {Ermakova, Liana and SanJuan, Eric and Huet, Stephane and Azarbonyad, Hosein and Di Nunzio, Giorgio Maria and Vezzani, Federica and D’Souza, Jennifer and Kabongo, Salomon and <b>Babaei Giglou, Hamed</b> and Zhang, Yue and Auer, Sören and Kamps, Jaap},
+title = {CLEF 2024 SimpleText Track: Improving Access to Scientific Texts for Everyone},
+year = {2024},
+isbn = {978-3-031-56071-2},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-56072-9_4},
+doi = {10.1007/978-3-031-56072-9_4},
+abstract = {Everyone agrees on the importance of objective scientific information. However, relevant scientific documents tend to be inherently difficult to find and understand either because of intricate terminology or the potential absence of prior knowledge among their readers. Can we improve accessibility for everyone? This paper introduces the SimpleText Track at CLEF 2024, addressing the technical and evaluation challenges associated with making scientific information accessible to a wide audience, including students and non-experts. We provide appropriate reusable data and benchmarks for scientific text summarization and simplification. The CLEF 2024 SimpleText track is based on four interrelated tasks: Task&nbsp;1 Content Selection: Retrieving Passages to Include in a Simplified Summary. Task&nbsp;2 Complexity Spotting: Identifying and Explaining Difficult Concepts. Task&nbsp;3 Text Simplification: Simplify Scientific Text. Task&nbsp;4 SOTA?: Tracking the State-of-the-Art in Scholarly Publications.},
+booktitle = {Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part VI},
+pages = {28–35},
+numpages = {8},
+keywords = {Scientific text simplification, Information extraction, Information retrieval, Natural language processing},
+location = {Glasgow, United Kingdom}
 }
 
-@inproceedings{ermakova2024clef,
-title={CLEF 2024 SimpleText Track: Improving Access to Scientific Texts for Everyone},
-author={Ermakova, Liana and SanJuan, Eric and Huet, St{\'e}phane and Azarbonyad, Hosein and Di Nunzio, Giorgio Maria and Vezzani, Federica and D’souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue and others},
-booktitle={European Conference on Information Retrieval},
-pages={28--35},
-year={2024},
-organization={Springer Nature Switzerland Cham}
-}
-
-@article{giglou2024llms4om,
-title={LLMs4OM: Matching Ontologies with Large Language Models},
-author={Giglou, Hamed Babaei and D'Souza, Jennifer and Engel, Felix and Auer, S{\"o}ren},
-journal={arXiv preprint arXiv:2404.10317},
-year={2024}
-}
-
-@article{ermakova2024clef,
-title={CLEF 2024 SimpleText Track},
-author={Ermakova, Liana and SanJuan, Eric and Huet, St{\'e}phane and Azarbonyad, Hosein and Di Nunzio, Giorgio Maria and Vezzani, Federica and D’Souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue and others},
-year={2024}
+@misc{giglou2024llms4ommatchingontologieslarge,
+  title={LLMs4OM: Matching Ontologies with Large Language Models},
+  author={<b>Hamed Babaei Giglou</b> and Jennifer D'Souza and Felix Engel and Sören Auer},
+  year={2024},
+  doi={2404.10317},
+  publisher={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2404.10317},
 }
 
 @article{d2024overview,
 title={Overview of the CLEF 2024 simpletext task 4: SOTA? tracking the state-of-the-art in scholarly publications},
-author={D’Souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue},
+author={D’Souza, Jennifer and Kabongo, Salomon and <b>Giglou, Hamed Babaei</b> and Zhang, Yue},
 journal={Working Notes of CLEF},
+url={https://ceur-ws.org/Vol-3740/paper-308.pdf}
+publisher = {CEUR-WS.org},
 year={2024}
 }
 
-@inproceedings{ermakova2024overview,
-title={Overview of CLEF 2024 SimpleText track on improving access to scientific texts},
-author={Ermakova, Liana and SanJuan, E and Huet, S and Azarbonyad, H and Di Nunzio, GM and Vezzani, F and D’souza, J and Kabongo, S and Giglou, HB and Zhang, Y and others},
-booktitle={Experimental IR Meets Multilinguality, Multimodality, and Interaction. Proceedings of the Fifteenth International Conference of the CLEF Association (CLEF 2024), Lecture Notes in Computer Science, Springer},
-year={2024}
+@InProceedings{10.1007/978-3-031-65794-8_1,
+author="<b>Babaei Giglou, Hamed</b>
+and Taffa, Tilahun Abedissa
+and Abdullah, Rana
+and Usmanova, Aida
+and Usbeck, Ricardo
+and D'Souza, Jennifer
+and Auer, Sören",
+editor="Rehm, Georg
+and Dietze, Stefan
+and Schimmler, Sonja
+and Kr{\"u}ger, Frank",
+title="Scholarly Question Answering Using Large Language Models in the NFDI4DataScience Gateway",
+booktitle="Natural Scientific Language Processing and Research Knowledge Graphs",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="3--18",
+abstract="This paper introduces a scholarly Question Answering (QA) system on top of the NFDI4DataScience Gateway, employing a Retrieval Augmented Generation-based (RAG) approach. The NFDI4DS Gateway, as a foundational framework, offers a unified and intuitive interface for querying various scientific databases using federated search. The RAG-based scholarly QA, powered by a Large Language Model (LLM), facilitates dynamic interaction with search results, enhancing filtering capabilities and fostering a conversational engagement with the Gateway search. The effectiveness of both the Gateway and the scholarly QA system is demonstrated through experimental analysis.",
+isbn="978-3-031-65794-8"
 }
 
-@inproceedings{babaei2024scholarly,
-title={Scholarly Question Answering Using Large Language Models in the NFDI4DataScience Gateway},
-author={Babaei Giglou, Hamed and Taffa, Tilahun Abedissa and Abdullah, Rana and Usmanova, Aida and Usbeck, Ricardo and D’Souza, Jennifer and Auer, S{\"o}ren},
-booktitle={International Workshop on Natural Scientific Language Processing and Research Knowledge Graphs},
-pages={3--18},
-year={2024},
-organization={Springer}
-}
 
-@article{rahgouy2024towards,
+@misc{rahgouy2024effectiveauthorshipattributionintegrating,
 title={Towards Effective Authorship Attribution: Integrating Class-Incremental Learning},
-author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Tabassum, Mehnaz and Feng, Dongji and Das, Amit and Rahgooy, Taher and Dozier, Gerry and Seals, Cheryl D},
-journal={arXiv preprint arXiv:2408.08900},
-year={2024}
+author={Mostafa Rahgouy and <b>Hamed Babaei Giglou</b> and Mehnaz Tabassum and Dongji Feng and Amit Das and Taher Rahgooy and Gerry Dozier and Cheryl D. Seals},
+year={2024},
+doi={2408.08900},
+publisher={arXiv},
+primaryClass={cs.IR},
+url={https://arxiv.org/abs/2408.08900},
 }

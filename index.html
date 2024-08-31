@@ -29,10 +29,10 @@
 
         <div class="nav navbar-nav left-section">
             <ul class="navigation-links">
-                <li><a onclick="navigate('home')">Home</a></li>
-                <li><a onclick="loadAndRenderPublications()">Publication</a></li>
-                <li><a onclick="navigate('project')">Project</a></li>
-                <li><a onclick="navigate('experience')">Experience</a></li>
+                <li><a id='home-page'>Home</a></li>
+                <li><a id='publication-page'>Publication</a></li>
+                <li><a id='project-page'>Project</a></li>
+                <li><a id='experience-page'>Experience</a></li>
             </ul>
         </div>
         <div class="nav navbar-nav right-section" style="solid-color:#a19f9f;">
@@ -49,14 +49,17 @@
 	  </div>
 	</nav>
 
-    <div class="container">
-            <div class="col-md-12" style="height: 100vh;" id="content"></div>
+    <div class="wrapper">
+        <div class="container" id="content"> </div>
+        <footer class="footer">
+            <p>© <span id="year"></span> hamedbabaei.github.io. All rights reserved.</p>
+        </footer>
     </div>
+<!--     <script type="module" src="js/main.js"></script>-->
+    <script type="module" src="js/main.js"></script>
 
-     <script src="js/main.js"></script>
-     <script src="js/bibtextParser.js"></script>
 
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
+<!--    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>-->
 </body>
 
 </html>
