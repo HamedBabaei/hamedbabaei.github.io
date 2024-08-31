@@ -30,22 +30,22 @@
         <div class="nav navbar-nav left-section">
             <ul class="navigation-links">
                 <li><a onclick="navigate('home')">Home</a></li>
-                <li><a onclick="navigate('publication')">Publication</a></li>
+                <li><a onclick="loadAndRenderPublications()">Publication</a></li>
                 <li><a onclick="navigate('project')">Project</a></li>
                 <li><a onclick="navigate('experience')">Experience</a></li>
             </ul>
         </div>
-          <div class="nav navbar-nav right-section" style="solid-color:#a19f9f;">
-                <ul class="social-icons">
-                    <li><a href="#" target="_blank">CV</a></li>
-                    <li><a href="https://scholar.google.com/citations?user=Sehm6tMAAAAJ&hl=en" target="_blank"><i class="fab fa-google fa-lg"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/hamedbabaeigiglou/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>
-                    <li><a href="https://www.researchgate.net/profile/Hamed-Babaei-Giglou-2" target="_blank"><i class="fab fa-researchgate fa-lg"></i></a></li>
-                    <li><a href="https://twitter.com/_hamed_babaei" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-                    <li><a href="https://github.com/hamedbabaei" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
-                    <li><a onclick="navigate('home')" target="_blank"><img  src="img/logo.jpg"alt=""></a></li>
-                </ul>
-            </div>
+        <div class="nav navbar-nav right-section" style="solid-color:#a19f9f;">
+            <ul class="social-icons">
+                <li><a href="#" target="_blank">CV</a></li>
+                <li><a href="https://scholar.google.com/citations?user=Sehm6tMAAAAJ&hl=en" target="_blank"><i class="fab fa-google fa-lg"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hamedbabaeigiglou/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                <li><a href="https://www.researchgate.net/profile/Hamed-Babaei-Giglou-2" target="_blank"><i class="fab fa-researchgate fa-lg"></i></a></li>
+                <li><a href="https://twitter.com/_hamed_babaei" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+                <li><a href="https://github.com/hamedbabaei" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+                <li><a onclick="navigate('home')" target="_blank"><img  src="img/photo.png"alt=""></a></li>
+            </ul>
+        </div>
 	  </div>
 	</nav>
 
@@ -53,7 +53,8 @@
             <div class="col-md-12" style="height: 100vh;" id="content"></div>
     </div>
 
-     <script src="main.js"></script>
+     <script src="js/main.js"></script>
+     <script src="js/bibtextParser.js"></script>
 
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
 </body>

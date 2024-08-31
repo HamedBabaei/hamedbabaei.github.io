@@ -1,5 +1,6 @@
+
 function loadPage(pageName) {
-    return fetch("pages/"+pageName + '.html')
+    return fetch("../pages/"+pageName + '.html')
         .then(response => response.text())
         .catch(error => console.error('Error fetching the file:', error));
 }
@@ -10,9 +11,6 @@ async function navigate(page) {
     switch (page) {
         case 'home':
             content = await loadPage('home');
-            break;
-        case 'publication':
-            content = await loadPage('publication');
             break;
         case 'project':
             content = await loadPage('project');

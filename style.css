@@ -25,6 +25,9 @@
 .nav a:hover {
     text-decoration: none; /* Remove underlines on hover */
 }
+.paper-entry {
+    margin-bottom: 15px;
+}
 
 /* Style for the navigation links on the right */
 .navigation-links {

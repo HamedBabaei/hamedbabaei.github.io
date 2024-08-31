@@ -1,0 +1,169 @@
+@inproceedings{rahgouy2019cross,
+title={Cross-domain Authorship Attribution: Author Identification using a Multi-Aspect Ensemble Approach.},
+author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Sheykhlan, Mohammad Karami and Mohammadzadeh, Erfan},
+booktitle={CLEF (Working Notes)},
+year={2019}
+}
+
+@inproceedings{giglou2020lsaconet,
+title={LSACoNet: A Combination of Lexical and Conceptual Features for Analysis of Fake News Spreaders on Twitter.},
+author={Giglou, Hamed Babaei and Razmara, Jafar and Rahgouy, Mostafa and Sanaei, Mahsa},
+booktitle={CLEF (Working Notes)},
+year={2020}
+}
+
+@inproceedings{rahgouy2018author,
+title={Author Masking Directed by Author's Style},
+author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Zeynali, Hasan and Rasouli, Salar Khayat Mirza},
+booktitle={CLEF 2018},
+pages={1--6},
+year={2018}
+}
+
+@inproceedings{giglou2019author,
+title={Author Profiling: Bot and Gender Prediction using a Multi-Aspect Ensemble Approach},
+author={Giglou, Hamed Babaei and Rahgouy, Mostafa and Rahgooy, Taher and Sheykhlan, Mohammad Karami and Mohammadzadeh, Erfan},
+booktitle={CLEF (Working Notes)},
+year={2019},
+organization={CEUR-WS.org}
+}
+
+@inproceedings{giglou2021profiling,
+title={Profiling Haters on Twitter using Statistical and Contextualized Embeddings.},
+author={Giglou, Hamed Babaei and Rahgooy, Taher and Razmara, Jafar and Rahgouy, Mostafa and Rahgooy, Zahra},
+booktitle={CLEF (Working Notes)},
+pages={1813--1821},
+year={2021}
+}
+
+@inproceedings{babaei2021uot,
+title={UoT-UWF-PartAI at SemEval-2021 Task 5: Self Attention Based Bi-GRU with Multi-Embedding Representation for Toxicity Highlighter},
+author={Babaei Giglou, Hamed and Rahgooy, Taher and Rahgouy, Mostafa and Razmara, Jafar},
+booktitle={Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)},
+pages={948--952},
+year={2021}
+}
+
+@inproceedings{rahgouy2022null,
+title={Null at semeval-2022 task 6: Intended sarcasm detection using stylistically fused contextualized representation and deep learning},
+author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Rahgooy, Taher and Seals, Cheryl},
+booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)},
+pages={862--870},
+year={2022}
+}
+
+@inproceedings{giglou2022profiling,
+title={Profiling Irony and Stereotype Spreaders with Encoding Dependency Information using Graph Convolutional Network.},
+author={Giglou, Hamed Babaei and Rahgouy, Mostafa and Rahmati, Ali and Rahgooy, Taher and Seals, Cheryl D},
+booktitle={CLEF (Working Notes)},
+pages={2391--2401},
+year={2022}
+}
+
+@misc{farokhshad2021virapart,
+title={ViraPart: A Text Refinement Framework for Automatic Speech Recognition and Natural Language Processing Tasks in Persian},
+author={Farokhshad, Narges and Molazadeh, Milad and Jamalabbasi, Saman and Giglou, Hamed Babaei and Bibak, Saeed},
+journal={International Journal of Electronics and Communication Engineering},
+year={2021}
+}
+
+@inproceedings{giglou2022parssimpleqa,
+title={ParsSimpleQA: The Persian Simple Question Answering Dataset and System over Knowledge Graph},
+author={Giglou, Hamed Babaei and Beyranvand, Niloufar and Moradi, Reza and Salehoof, Amir Mohammad and Bibak, Saeed},
+booktitle={Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities},
+pages={59--68},
+year={2022}
+}
+
+@inproceedings{oskuee2023tm,
+title={TM Scanlon at SemEval-2023 Task 4: Leveraging Pretrained Language Models for Human Value Argument Mining with Contrastive Learning},
+author={Oskuee, Milad Molazadeh and Rahgouy, Mostafa and Giglou, Hamed Babaei and Seals, Cheryl D},
+booktitle={Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)},
+pages={603--608},
+year={2023}
+}
+
+@article{alam2023automated,
+title={Automated clinical knowledge graph generation framework for evidence based medicine},
+author={Alam, Fakhare and Giglou, Hamed Babaei and Malik, Khalid Mahmood},
+journal={Expert Systems with Applications},
+volume={233},
+pages={120964},
+year={2023},
+publisher={Elsevier}
+}
+
+@article{giglou2023leveraging,
+title={Leveraging large language‌ models with multiple loss learners for few-shot author profiling},
+author={Giglou, Hamed Babaei and Rahgouy, Mostafa and D’Souza, Jennifer and Molazadeh Oskuee, Milad and Tekanlou, Hadi Bayrami Asl and Seals, Cheryl D},
+journal={Working Notes of CLEF},
+year={2023}
+}
+
+@inproceedings{rahgouy2023navigating,
+title={Navigating the Fermi Multiverse: Assessing LLMs for Complex Multi-hop Queries.},
+author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Feng, Dongji and Rahgooy, Taher and Dozier, Gerry V and Seals, Cheryl D},
+booktitle={NL4AI@ AI* IA},
+year={2023}
+}
+
+@inproceedings{babaei2023llms4ol,
+title={LLMs4OL: Large Language Models for Ontology Learning},
+author={Babaei Giglou, Hamed and D’Souza, Jennifer and Auer, S{\"o}ren},
+booktitle={International Semantic Web Conference},
+pages={408--427},
+year={2023},
+organization={Springer}
+}
+
+@inproceedings{ermakova2024clef,
+title={CLEF 2024 SimpleText Track: Improving Access to Scientific Texts for Everyone},
+author={Ermakova, Liana and SanJuan, Eric and Huet, St{\'e}phane and Azarbonyad, Hosein and Di Nunzio, Giorgio Maria and Vezzani, Federica and D’souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue and others},
+booktitle={European Conference on Information Retrieval},
+pages={28--35},
+year={2024},
+organization={Springer Nature Switzerland Cham}
+}
+
+@article{giglou2024llms4om,
+title={LLMs4OM: Matching Ontologies with Large Language Models},
+author={Giglou, Hamed Babaei and D'Souza, Jennifer and Engel, Felix and Auer, S{\"o}ren},
+journal={arXiv preprint arXiv:2404.10317},
+year={2024}
+}
+
+@article{ermakova2024clef,
+title={CLEF 2024 SimpleText Track},
+author={Ermakova, Liana and SanJuan, Eric and Huet, St{\'e}phane and Azarbonyad, Hosein and Di Nunzio, Giorgio Maria and Vezzani, Federica and D’Souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue and others},
+year={2024}
+}
+
+@article{d2024overview,
+title={Overview of the CLEF 2024 simpletext task 4: SOTA? tracking the state-of-the-art in scholarly publications},
+author={D’Souza, Jennifer and Kabongo, Salomon and Giglou, Hamed Babaei and Zhang, Yue},
+journal={Working Notes of CLEF},
+year={2024}
+}
+
+@inproceedings{ermakova2024overview,
+title={Overview of CLEF 2024 SimpleText track on improving access to scientific texts},
+author={Ermakova, Liana and SanJuan, E and Huet, S and Azarbonyad, H and Di Nunzio, GM and Vezzani, F and D’souza, J and Kabongo, S and Giglou, HB and Zhang, Y and others},
+booktitle={Experimental IR Meets Multilinguality, Multimodality, and Interaction. Proceedings of the Fifteenth International Conference of the CLEF Association (CLEF 2024), Lecture Notes in Computer Science, Springer},
+year={2024}
+}
+
+@inproceedings{babaei2024scholarly,
+title={Scholarly Question Answering Using Large Language Models in the NFDI4DataScience Gateway},
+author={Babaei Giglou, Hamed and Taffa, Tilahun Abedissa and Abdullah, Rana and Usmanova, Aida and Usbeck, Ricardo and D’Souza, Jennifer and Auer, S{\"o}ren},
+booktitle={International Workshop on Natural Scientific Language Processing and Research Knowledge Graphs},
+pages={3--18},
+year={2024},
+organization={Springer}
+}
+
+@article{rahgouy2024towards,
+title={Towards Effective Authorship Attribution: Integrating Class-Incremental Learning},
+author={Rahgouy, Mostafa and Giglou, Hamed Babaei and Tabassum, Mehnaz and Feng, Dongji and Das, Amit and Rahgooy, Taher and Dozier, Gerry and Seals, Cheryl D},
+journal={arXiv preprint arXiv:2408.08900},
+year={2024}
+}
