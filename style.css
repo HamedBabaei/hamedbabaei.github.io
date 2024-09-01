@@ -85,3 +85,145 @@ hr {
     outline: none; /* Remove default browser focus outline */
     /*background-color: rgba(0, 0, 0, 0.1); !* Background when focused *!*/
 }
+
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 10px; /* Space between logo and details */
+}
+
+.project-logo {
+    width: 250px; /* Adjust as needed */
+    height: auto;
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Take up remaining space */
+}
+
+.project-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #25476a;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    margin-bottom: 10px;
+}
+
+.stats-languages {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between items */
+}
+
+.github-stats {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.project-icon {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.project-languages {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.project-icon:hover {
+    color: #0056b3; /* Hover color */
+}
+.project-conference {
+    font-size: 1em;
+    color: #25476a;
+    font-weight: bold;
+}
+
+
+
+/*.project-container {*/
+/*    width: 100%;*/
+/*    !*margin-top: 20px;*!*/
+/*}*/
+
+/*.project-table {*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*    border-collapse: collapse;*/
+/*}*/
+
+/*.logo-cell {*/
+/*    vertical-align: top;*/
+/*}*/
+
+/*.project-logo {*/
+/*    !*margin: 10px;*!*/
+/*    margin-top: 10px;*/
+/*    margin-right: 10px;*/
+/*    max-width: 200px; !* Adjust size as needed *!*/
+/*    height: 130px;*/
+/*}*/
+
+/*.project-title {*/
+/*    !*margin: 5px;*!*/
+/*    font-size: 0.7em;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.project-description {*/
+/*    margin: 10px 0 0 0;*/
+/*    font-size: 1em;*/
+/*    color: #555;*/
+/*}*/
+
+
+/*.project-languages {*/
+/*    margin: 10px 0 0 0;*/
+/*    font-size: 1em;*/
+/*    color: #777;*/
+/*}*/
+
+/*.project-stats {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+
+/*.github-stats {*/
+/*    font-size: 14px;*/
+/*    color: #555;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.project-link {*/
+/*    margin-right: 20px; !* Space between GitHub icon and stats *!*/
+/*}*/
+
+/*.project-icon {*/
+/*    font-size: 24px; !* Icon size *!*/
+/*    color: #2e3235; !* Icon color *!*/
+/*}*/
+
+/*.project-icon {*/
+/*    font-size: 24px; !* Icon size *!*/
+/*    color: #2c3033; !* Icon color *!*/
+/*}*/
+

@@ -1,5 +1,13 @@
 import {loadBibtexFile, parseBibTex, groupPapersByYear, generateHTML} from './bibtexParser.js';
 
+import {loadProjects} from './projectsParser.js';
+
+async function displayProjects() {
+    const projectContainerHTML = await loadProjects();
+    return projectContainerHTML; // Returns the HTML string
+}
+
+
 // Function to load and render publications
 async function loadAndRenderPublications() {
     const filePath = 'assets/publications.txt';
@@ -32,7 +40,9 @@ export async function navigate(page) {
             content = await loadPage('home');
             break;
         case 'project':
-            content = await loadPage('project');
+            content = await displayProjects();
+            // contentDiv.innerHTML = ''; // Clear existing content
+            // contentDiv.appendChild(projectContainerElement); // Append the DOM element
             break;
         case 'publication':
             content = await loadAndRenderPublications();
@@ -49,13 +59,23 @@ export async function navigate(page) {
     }
 }
 
-// Initially load the home page
-document.addEventListener('DOMContentLoaded', () => navigate('home'));
 
-document.getElementById('home-page').addEventListener('click', () => navigate('home'));
-document.getElementById('publication-page').addEventListener('click', () => navigate('publication'));
-document.getElementById('project-page').addEventListener('click', () => navigate('project'));
-document.getElementById('experience-page').addEventListener('click', () => navigate('experience'));
+document.addEventListener('DOMContentLoaded', () => {
+    navigate('home');
+
+    document.getElementById('home-page').addEventListener('click', () => navigate('home'));
+    document.getElementById('publication-page').addEventListener('click', () => navigate('publication'));
+    document.getElementById('project-page').addEventListener('click', () => navigate('project'));
+    document.getElementById('experience-page').addEventListener('click', () => navigate('experience'));
+});
+
+// // Initially load the home page
+// document.addEventListener('DOMContentLoaded', () => navigate('home'));
+//
+// document.getElementById('home-page').addEventListener('click', () => navigate('home'));
+// document.getElementById('publication-page').addEventListener('click', () => navigate('publication'));
+// document.getElementById('project-page').addEventListener('click', () => navigate('project'));
+// document.getElementById('experience-page').addEventListener('click', () => navigate('experience'));
 
 // Example event listener for a button (optional)
 // document.getElementById('someButton').addEventListener('click', () => navigate('publications'));
