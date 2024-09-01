@@ -59,3 +59,29 @@ hr {
     background: #ccc;
     margin: 0;
 }
+
+
+.transparent-btn {
+    list-style-type: none;
+    /*margin: 0;*/
+    display: flex;
+    margin-right: 10px;
+    /*background-color: transparent;*/
+    border: none;
+    /*padding: 2px 2px;*/
+    color: #000; /* Text color */
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.transparent-btn:hover {
+    opacity: 0.7; /* Adjust the opacity on hover */
+    /*background-color: rgba(0, 0, 0, 0.05); !* Subtle background on hover *!*/
+}
+
+.transparent-btn:focus {
+    outline: none; /* Remove default browser focus outline */
+    /*background-color: rgba(0, 0, 0, 0.1); !* Background when focused *!*/
+}
