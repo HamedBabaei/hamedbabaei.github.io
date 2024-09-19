@@ -392,3 +392,13 @@ publisher={arXiv},
 primaryClass={cs.IR},
 url={https://arxiv.org/abs/2408.08900},
 }
+
+@misc{giglou2024llms4ol2024overview1st,
+      title={LLMs4OL 2024 Overview: The 1st Large Language Models for Ontology Learning Challenge},
+      author={Hamed Babaei Giglou and Jennifer D'Souza and Sören Auer},
+      year={2024},
+      eprint={2409.10146},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.10146},
+}
