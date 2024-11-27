@@ -19,14 +19,12 @@ export async function loadProjects() {
             const repoName = repoUrl.split('/').slice(-2).join('/'); // Extracts owner/repo from URL
             const apiUrl = `https://api.github.com/repos/${repoName}`;
             try {
-                // Fetch repository data
                 const response = await fetch(apiUrl);
                 if (!response.ok) {
                     throw new Error('Failed to fetch GitHub repository data');
                 }
                 const repoData = await response.json();
 
-                // Fetch languages used in the repository
                 const languagesResponse = await fetch(`${apiUrl}/languages`);
                 if (!languagesResponse.ok) {
                     throw new Error('Failed to fetch GitHub repository languages');
@@ -87,7 +85,8 @@ export async function loadProjects() {
 
             // Fetch and display GitHub data
             const githubData = await fetchGitHubData(project.github);
-            const statsText = `GitHub (Stars: ${githubData.stars}, Forks: ${githubData.forks}, Watchers: ${githubData.watchers})`;
+            // const statsText = `GitHub (Stars: ${githubData.stars}, Forks: ${githubData.forks}, Watchers: ${githubData.watchers})`;
+            const statsText = `GitHub (Stars: ${githubData.stars}, Forks: ${githubData.forks})`;
             const statsDiv = document.createElement('span');
             statsDiv.classList.add('github-stats');
             statsDiv.textContent = statsText;
@@ -122,6 +121,20 @@ export async function loadProjects() {
             conferenceDiv.classList.add('project-conference');
             conferenceDiv.textContent = `Published in: ${project.conference || 'Not available'}`;
 
+            // Add home page icon link if ID is present
+            if (project.ID) {
+                const homePageIconLink = document.createElement('a');
+                homePageIconLink.href = `/${project.ID}`;
+                homePageIconLink.target = '_blank'; // Open in a new tab
+                homePageIconLink.classList.add('home-page-icon');
+
+                const homePageIcon = document.createElement('i');
+                homePageIcon.classList.add('fas', 'fa-home'); // Font Awesome home icon
+
+                homePageIconLink.appendChild(homePageIcon);
+                statsLanguagesDiv.appendChild(homePageIconLink);
+            }
+
             // Append all elements to detailsDiv
             detailsDiv.appendChild(titleLink);
             detailsDiv.appendChild(description);
@@ -143,5 +156,3 @@ export async function loadProjects() {
         return '<p>Error loading projects.</p>';
     }
 }
-
-

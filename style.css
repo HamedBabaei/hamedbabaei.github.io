@@ -121,6 +121,14 @@ hr {
     color: #25476a;
     margin-bottom: 5px;
 }
+.home-page-icon {
+    margin-left: 8px;
+    color: #000; /* Adjust color as needed */
+    text-decoration: none;
+}
+.home-page-icon i {
+    font-size: 1.2em;
+}
 
 .project-description {
     margin-bottom: 10px;

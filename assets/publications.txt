@@ -402,3 +402,64 @@ url={https://arxiv.org/abs/2408.08900},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2409.10146},
 }
+
+@article{Sanaei_Azizi_Babaei_Giglou_2024,
+  title        = {Phoenixes at LLMs4OL 2024 Tasks A, B, and C: Retrieval Augmented Generation for Ontology Learning},
+  volume       = {4},
+  url          = {https://www.tib-op.org/ojs/index.php/ocp/article/view/2482},
+  DOI          = {10.52825/ocp.v4i.2482},
+  journal      = {Open Conference Proceedings},
+  author       = {Sanaei, Mahsa and Azizi, Fatemeh and Babaei Giglou, Hamed},
+  year         = {2024},
+  month        = {Oct.},
+  pages        = {39--47}
+}
+
+@article{Babaei_Giglou_DSouza_Auer_2024,
+  title        = {Preface for LLMs4OL 2024: The 1st Large Language Models for Ontology Learning Challenge at the 23rd ISWC},
+  volume       = {4},
+  url          = {https://www.tib-op.org/ojs/index.php/ocp/article/view/2472},
+  DOI          = {10.52825/ocp.v4i.2472},
+  journal      = {Open Conference Proceedings},
+  author       = {Babaei Giglou, Hamed and D’Souza, Jennifer and Auer, Sören},
+  year         = {2024},
+  month        = {Oct.},
+  pages        = {1--2}
+}
+
+@article{Babaei_Giglou_DSouza_Sadruddin_Auer_2024,
+  title        = {LLMs4OL 2024 Datasets: Toward Ontology Learning with Large Language Models},
+  volume       = {4},
+  url          = {https://www.tib-op.org/ojs/index.php/ocp/article/view/2480},
+  DOI          = {10.52825/ocp.v4i.2480},
+  journal      = {Open Conference Proceedings},
+  author       = {Babaei Giglou, Hamed and D’Souza, Jennifer and Sadruddin, Sameer and Auer, Sören},
+  year         = {2024},
+  month        = {Oct.},
+  pages        = {17--30}
+}
+
+
+@misc{giglou2024llms4synthesisleveraginglargelanguage,
+      title={LLMs4Synthesis: Leveraging Large Language Models for Scientific Synthesis},
+      author={Hamed Babaei Giglou and Jennifer D'Souza and Sören Auer},
+      year={2024},
+      eprint={2409.18812},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.18812},
+}
+
+@article{Babaei_Giglou_DSouza_Auer_2024,
+  title        = {LLMs4OL 2024 Overview: The 1st Large Language Models for Ontology Learning Challenge},
+  volume       = {4},
+  url          = {https://www.tib-op.org/ojs/index.php/ocp/article/view/2473},
+  DOI          = {10.52825/ocp.v4i.2473},
+  journal      = {Open Conference Proceedings},
+  author       = {Babaei Giglou, Hamed and D’Souza, Jennifer and Auer, Sören},
+  year         = {2024},
+  month        = {Oct.},
+  pages        = {3--16}
+}
+
+
