@@ -86,10 +86,10 @@ export async function loadProjects() {
             // Fetch and display GitHub data
             const githubData = await fetchGitHubData(project.github);
             // const statsText = `GitHub (Stars: ${githubData.stars}, Forks: ${githubData.forks}, Watchers: ${githubData.watchers})`;
-            const statsText = `GitHub (Stars: ${githubData.stars}, Forks: ${githubData.forks})`;
+            // const statsText = `Stars: ${githubData.stars}, Forks: ${githubData.forks}`;
             const statsDiv = document.createElement('span');
             statsDiv.classList.add('github-stats');
-            statsDiv.textContent = statsText;
+            // statsDiv.textContent = statsText;
 
             // GitHub icon link
             const githubIconLink = document.createElement('a');
@@ -99,7 +99,7 @@ export async function loadProjects() {
             const githubIcon = document.createElement('i');
             githubIcon.classList.add('fab', 'fa-github'); // Font Awesome GitHub icon
             githubIcon.classList.add('project-icon');
-
+            githubIcon.textContent = " GitHub Repository"
             // Append GitHub icon to the link
             githubIconLink.appendChild(githubIcon);
 
@@ -109,9 +109,9 @@ export async function loadProjects() {
 
             // Add programming languages and their percentages
             const languages = document.createElement('span');
-            languages.classList.add('project-languages');
-            const languageText = githubData.languages.map(lang => `${lang.language} (${lang.percentage}%)`).join(', ');
-            languages.textContent = `Languages: ${languageText}`;
+            // languages.classList.add('project-languages');
+            // const languageText = githubData.languages.map(lang => `${lang.language} (${lang.percentage}%)`).join(', ');
+            // languages.textContent = `Languages: ${languageText}`;
 
             // Append languages to statsLanguagesDiv
             statsLanguagesDiv.appendChild(languages);
@@ -126,10 +126,13 @@ export async function loadProjects() {
                 const homePageIconLink = document.createElement('a');
                 homePageIconLink.href = `/${project.ID}`;
                 homePageIconLink.target = '_blank'; // Open in a new tab
+
                 homePageIconLink.classList.add('home-page-icon');
+
 
                 const homePageIcon = document.createElement('i');
                 homePageIcon.classList.add('fas', 'fa-home'); // Font Awesome home icon
+                homePageIcon.textContent = ` Project Page`;
 
                 homePageIconLink.appendChild(homePageIcon);
                 statsLanguagesDiv.appendChild(homePageIconLink);

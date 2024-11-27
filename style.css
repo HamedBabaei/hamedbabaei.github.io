@@ -127,7 +127,7 @@ hr {
     text-decoration: none;
 }
 .home-page-icon i {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .project-description {
@@ -141,12 +141,12 @@ hr {
 }
 
 .github-stats {
-    font-size: 0.9em;
-    color: #333;
+    font-size: 0.8em;
+    /*color: #333;*/
 }
 
 .project-icon {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
 }
 
