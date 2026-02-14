@@ -102,7 +102,67 @@ const WEBSITE_DATA = {
                     icon: "fab fa-github"
                 }
             ]
-        }
+        },
+        {
+            id: "llms4om",
+            title: "LLMs4OM",
+            icon: "fa-file-alt",
+            image: "images/llms4om-logo.png",
+            description: "This framework is a novel approach for effective OA using LLMs. This framework utilizes two modules for retrieval and matching, respectively, enhanced by zero-shot prompting across three ontology representations: concept, concept-parent, and concept-children. ",
+            tags: ["Ontology Matching", "RAG", "LLMs"],
+            links: [
+                {
+                    text: "GitHub",
+                    url: "https://github.com/HamedBabaei/LLMs4OM",
+                    icon: "fab fa-github"
+                },
+                {
+                    text: "Docs",
+                    url: "https://ontoaligner.readthedocs.io/aligner/rag.html",
+                    icon: "fas fa-book"
+                }
+            ]
+        },
+        {
+            id: "llms4synthesis",
+            title: "LLMs4Synthesis",
+            icon: "fa-file-alt",
+            image: "images/llms4synthesis-logo.png",
+            description: "This work introduces the LLMs4Synthesis framework to improve how LLMs generate and evaluate high-quality scientific syntheses. It defines new synthesis types and quality criteria while integrating RL and AI feedback to enhance reliability and coherence.",
+            tags: ["Scientific QA", "RL", "LLMs"],
+            links: [
+                {
+                    text: "GitHub",
+                    url: "https://github.com/HamedBabaei/LLMs4Synthesis",
+                    icon: "fab fa-github"
+                },
+                {
+                    text: "Docs",
+                    url: "https://hamedbabaei.github.io/LLMs4Synthesis/",
+                    icon: "fas fa-book"
+                }
+            ]
+        },
+        {
+            id: "llms4ol",
+            title: "LLMs4OL",
+            icon: "fa-file-alt",
+            image: "images/LLMs4OL.jpg",
+            description: "Ontology Learning (OL) focuses on automatically acquiring and structuring knowledge across domains. We introduce the LLMs4OL paradigm to empirically investigate whether LLMs can effectively leverage their linguistic understanding to support automated ontology construction.",
+            tags: ["Ontology Learning", "LLMs"],
+            links: [
+                {
+                    text: "GitHub",
+                    url: "https://github.com/HamedBabaei/LLMs4OL",
+                    icon: "fab fa-github"
+                },
+                {
+                    text: "Docs",
+                    url: "https://hamedbabaei.github.io/LLMs4OL/",
+                    icon: "fas fa-book"
+                }
+            ]
+        },
     ],
 
     // Publications
