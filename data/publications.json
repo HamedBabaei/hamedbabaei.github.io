@@ -1,0 +1,131 @@
+[
+  {
+    "year": 2025,
+    "title": "OntoAligner: A Comprehensive Modular and Robust Python Toolkit for Ontology Alignment",
+    "authors": [
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Jennifer D'Souza", "isMe": false},
+      {"name": "Oliver Karras", "isMe": false},
+      {"name": "Sören Auer", "isMe": false}
+    ],
+    "venue": "European Semantic Web Conference (ESWC) 2025 - Resource Track",
+    "links": [
+      {
+        "text": "Code",
+        "url": "https://github.com/sciknoworg/OntoAligner",
+        "icon": "fab fa-github"
+      },
+      {
+        "text": "Docs",
+        "url": "https://ontoaligner.readthedocs.io/",
+        "icon": "fas fa-book"
+      },
+      {
+        "text": "PyPI",
+        "url": "https://pypi.org/project/OntoAligner/",
+        "icon": "fas fa-download"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "LLMs4OM: Matching Ontologies with Large Language Models",
+    "authors": [
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Jennifer D'Souza", "isMe": false},
+      {"name": "Felix Engel", "isMe": false},
+      {"name": "Sören Auer", "isMe": false}
+    ],
+    "venue": "The Semantic Web: ESWC 2024 Satellite Events",
+    "links": [
+      {
+        "text": "Code",
+        "url": "https://github.com/HamedBabaei/LLMs4OM",
+        "icon": "fab fa-github"
+      },
+      {
+        "text": "Paper",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-78952-6_2",
+        "icon": "fas fa-file-pdf"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "LLMs4OL 2024 Overview: The 1st Large Language Models for Ontology Learning Challenge",
+    "authors": [
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Jennifer D'Souza", "isMe": false},
+      {"name": "Sören Auer", "isMe": false}
+    ],
+    "venue": "Open Conference Proceedings, Vol. 4",
+    "links": [
+      {
+        "text": "Code",
+        "url": "https://github.com/sciknoworg/LLMs4OL-Challenge",
+        "icon": "fab fa-github"
+      },
+      {
+        "text": "DOI",
+        "url": "https://doi.org/10.52825/ocp.v4i.2473",
+        "icon": "fas fa-external-link-alt"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "LLMs4Synthesis: Leveraging Large Language Models for Scientific Synthesis",
+    "authors": [
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Jennifer D'Souza", "isMe": false},
+      {"name": "Sören Auer", "isMe": false}
+    ],
+    "venue": "Joint Conference on Digital Libraries (JCDL) 2024",
+    "links": [
+      {
+        "text": "Code",
+        "url": "https://github.com/HamedBabaei/LLMs4Synthesis",
+        "icon": "fab fa-github"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "LLMs4OL: Large Language Models for Ontology Learning",
+    "authors": [
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Jennifer D'Souza", "isMe": false},
+      {"name": "Sören Auer", "isMe": false}
+    ],
+    "venue": "International Semantic Web Conference (ISWC) 2023 - Research Track",
+    "links": [
+      {
+        "text": "Code",
+        "url": "https://github.com/HamedBabaei/LLMs4OL",
+        "icon": "fab fa-github"
+      },
+      {
+        "text": "Paper",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-47240-4_22",
+        "icon": "fas fa-file-pdf"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Automated Clinical Knowledge Graph Generation Framework for Evidence Based Medicine",
+    "authors": [
+      {"name": "Fakhare Alam", "isMe": false},
+      {"name": "Hamed Babaei Giglou", "isMe": true},
+      {"name": "Khalid Mahmood Malik", "isMe": false}
+    ],
+    "venue": "Expert Systems with Applications",
+    "links": [
+      {
+        "text": "DOI",
+        "url": "https://doi.org/10.1016/j.eswa.2023.120964",
+        "icon": "fas fa-external-link-alt"
+      }
+    ]
+  }
+]

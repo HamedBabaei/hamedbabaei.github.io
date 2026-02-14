@@ -1,0 +1,34 @@
+[
+  {
+    "year": 2020,
+    "title": "3rd Place - Digikala Cup Data Science Competition",
+    "organization": "Digikala (Iran's largest e-commerce company)",
+    "description": "Ranked 3rd among 250 participants in a data science competition",
+    "icon": "fa-trophy",
+    "link": {
+      "text": "View Leaderboard",
+      "url": "https://quera.ir"
+    }
+  },
+  {
+    "year": 2019,
+    "title": "2nd Place - B.Sc. Computer Science Class",
+    "organization": "University of Mohaghegh Ardabili",
+    "description": "Ranked 2nd among B.Sc. Computer Science students (2014-2019)",
+    "icon": "fa-medal"
+  },
+  {
+    "year": 2016,
+    "title": "15th Place - ACM-ICPC Nationwide Contest",
+    "organization": "ACM-ICPC, Mazandaran, Iran",
+    "description": "Ranked 15th team among more than 90 teams in the 1st Nationwide Contest",
+    "icon": "fa-code"
+  },
+  {
+    "year": 2015,
+    "title": "50th Place - ACM-ICPC Internet Contest",
+    "organization": "ACM-ICPC, Tehran, Iran",
+    "description": "Ranked 50th team among more than 200 teams in the 13th Iran Nationwide Internet Contest",
+    "icon": "fa-code"
+  }
+]

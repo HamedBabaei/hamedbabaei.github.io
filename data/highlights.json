@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ontoaligner",
+    "title": "OntoAligner",
+    "icon": "fa-project-diagram",
+    "image": "images/ontoaligner-logo.png",
+    "description": "A comprehensive, modular Python toolkit for ontology alignment. Lead maintainer of this open-source library that integrates LLMs, RAG techniques, and traditional matching methods for semantic interoperability.",
+    "tags": ["Python", "Ontology Matching", "LLMs", "ESWC 2025"],
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/sciknoworg/OntoAligner",
+        "icon": "fab fa-github"
+      },
+      {
+        "text": "Docs",
+        "url": "https://ontoaligner.readthedocs.io/",
+        "icon": "fas fa-book"
+      },
+      {
+        "text": "PyPI",
+        "url": "https://pypi.org/project/OntoAligner/",
+        "icon": "fas fa-download"
+      }
+    ]
+  },
+  {
+    "id": "llms4ol",
+    "title": "LLMs4OL Challenge",
+    "icon": "fa-brain",
+    "image": "images/llms4ol-logo.png",
+    "description": "Co-organizer of the Large Language Models for Ontology Learning shared task, exploring how LLMs can automatically extract and structure knowledge from natural language text across various domains.",
+    "tags": ["Challenge", "ISWC 2024", "Community"],
+    "links": [
+      {
+        "text": "Challenge",
+        "url": "https://github.com/sciknoworg/LLMs4OL-Challenge",
+        "icon": "fas fa-trophy"
+      }
+    ]
+  },
+  {
+    "id": "llms4om",
+    "title": "LLMs4OM",
+    "icon": "fa-link",
+    "image": "images/llms4om-logo.png",
+    "description": "Framework for matching ontologies using Large Language Models, demonstrating that LLMs can match and surpass traditional ontology matching systems through zero-shot prompting and retrieval techniques.",
+    "tags": ["Ontology Matching", "RAG", "ESWC 2024"],
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/HamedBabaei/LLMs4OM",
+        "icon": "fab fa-github"
+      }
+    ]
+  },
+  {
+    "id": "llms4synthesis",
+    "title": "LLMs4Synthesis",
+    "icon": "fa-file-alt",
+    "image": "images/llms4synthesis-logo.png",
+    "description": "Framework designed to enhance LLM capabilities in generating high-quality scientific syntheses, addressing the growing complexity and volume of scientific literature with automated synthesis generation.",
+    "tags": ["Scientific Writing", "NLG", "JCDL 2024"],
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/HamedBabaei/LLMs4Synthesis",
+        "icon": "fab fa-github"
+      }
+    ]
+  }
+]

@@ -1,65 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hamed Babaei Giglou</title>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-              crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link  href="style.css" rel="stylesheet" type='text/css'>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamed Babaei Giglou - PhD Candidate in NLP & Semantic Web</title>
+    <meta name="description" content="Hamed Babaei Giglou - PhD Candidate researching NLP, Large Language Models, and Semantic Web Technologies at TIB Hannover.">
+    <meta name="keywords" content="Hamed Babaei Giglou, NLP, Large Language Models, Ontology Learning, Semantic Web, AI Research">
+    <meta name="author" content="Hamed Babaei Giglou">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-        <div class="nav navbar-nav left-section">
-            <ul class="navigation-links">
-                <li><a id='home-page' class="transparent-btn">Home</a></li>
-                <li><a id='publication-page' class="transparent-btn">Publication</a></li>
-                <li><a id='project-page' class="transparent-btn">Project</a></li>
-                <li><a id='experience-page' class="transparent-btn">Experience</a></li>
+    <header>
+        <nav>
+            <div class="logo">Hamed</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <h1>
+                    Hamed Babaei Giglou
+                    <strong>Bridging Language & Knowledge</strong>
+                </h1>
+                <p class="subtitle">
+                    PhD Candidate in Computer Science, specializing in Natural Language Processing, 
+                    Large Language Models, and Semantic Web Technologies at <a href="https://www.tib.eu/de/" title="TIB Hannover">TIB Hannover</a>.
+                </p>
+                
+                <div class="social-links">
+                    <a href="mailto:hamed.babaei@tib.eu" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=Sehm6tMAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://github.com/HamedBabaei" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hamedbabaeigiglou/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.researchgate.net/profile/Hamed-Babaei-Giglou-2" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                    <a href="https://www.tib.eu/de/forschung-entwicklung/forschungsgruppen-und-labs/data-science-and-digital-libraries/mitarbeiterinnen-und-mitarbeiter/hamed-babei-giglou" target="_blank" title="tib.eu"><i class="fa-solid fa-address-card"></i></a>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#publications" class="btn btn-primary">
+                        <i class="fas fa-book"></i> View Publications
+                    </a>
+                    <a href="https://github.com/HamedBabaei" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub Projects
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="profile-photo-container">
+                    <img src="images/profile-photo.png" alt="Hamed Babaei Giglou" class="profile-photo">
+                </div>
+                <div class="visual-card">
+                    <h3>Current Focus</h3>
+                    <p>Ontology Learning</p>
+                </div>
+                <div class="visual-card">
+                    <h3>Current Focus</h3>
+                    <p>Ontology Alignment </p>
+                </div>
+                <div class="visual-card">
+                    <h3>Tools</h3>
+                    <p>OntoAligner Library</p>
+                </div>
+                <div class="visual-card">
+                    <h3>Tools</h3>
+                    <p>OntoLearner Library</p>
+                </div>
+                <div class="visual-card">
+                    <h3>Community</h3>
+                    <p>LLMs4OL Challenge</p>
+                </div>
+                <div class="visual-card">
+                    <h3>Tools</h3>
+                    <p>YESciEval Library</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research">
+            <div class="section-header">
+                <h2>Research Highlights</h2>
+                <p>Advancing the intersection of artificial intelligence and knowledge representation</p>
+            </div>
+            
+            <div class="research-grid" id="highlights-container">
+                <p class="loading">Loading research highlights...</p>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <div class="section-header">
+                <h2>Selected Publications</h2>
+                <p>
+                    For a complete list, visit my 
+                    <a href="https://scholar.google.com/citations?hl=en&user=Sehm6tMAAAAJ" target="_blank" style="color: var(--accent-light);">Google Scholar</a>
+                </p>
+            </div>
+            
+            <div class="publications-list" id="publications-container">
+                <p class="loading">Loading publications...</p>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards">
+            <div class="section-header">
+                <h2>Awards & Honors</h2>
+                <p>Recognition for academic and competitive achievements</p>
+            </div>
+            
+            <div class="awards-grid" id="awards-container">
+                <p class="loading">Loading awards...</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="section-header">
+                <h2>Academic & Professional Experience</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-period">April 2023 – Present</div>
+                    <h3>PhD Candidate in Computer Science</h3>
+                    <div class="timeline-org">Leibniz University Hannover</div>
+                    <div class="timeline-description">
+                        <p>
+                            Supervised by Dr. Jennifer D'Souza and Prof. Dr. Sören Auer at TIB – Leibniz Information 
+                            Centre for Science and Technology. Research focus on Large Language Models for Ontology 
+                            Learning and Semantic Web Technologies.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-period">December 2022 – Present</div>
+                    <h3>Research Associate / Doctoral Researcher</h3>
+                    <div class="timeline-org">TIB – Leibniz Information Centre for Science and Technology</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Lead developer and maintainer of OntoAligner library</li>
+                            <li>Co-organizer of LLMs4OL Challenge @ ISWC 2024 and 2025</li>
+                            <li>Co-organizer of LLMs4Subjects Shared Task @ GermEval25</li>
+                            <li>PC Member for TEXT2KG, ELMKE, and AI4SC conferences</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-period">September 2019 – January 2022</div>
+                    <h3>M.S. in Artificial Intelligence</h3>
+                    <div class="timeline-org">University of Tabriz (GPA: 18.84/20)</div>
+                    <div class="timeline-description">
+                        <p>
+                            Research focus on Semi-Automated Content Moderation for Social Good. 
+                            Teaching Assistant for Machine Learning course in 2021.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-period">August 2021 – October 2022</div>
+                    <h3>Natural Language Processing Researcher</h3>
+                    <div class="timeline-org">Part AI Research Center, Tehran</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Developed Knowledge Graph-based QA system for Persian</li>
+                            <li>Designed conversational chatbot system</li>
+                            <li>Built context-aware search application</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-period">July 2021 – March 2022</div>
+                    <h3>Natural Language Processing Specialist</h3>
+                    <div class="timeline-org">Karan Co., Tehran</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Developed hybrid semantic/keyword matching system for job ads</li>
+                            <li>Built AI-powered QA system with NLG capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-period">October 2020 – June 2021</div>
+                    <h3>Senior Data Scientist</h3>
+                    <div class="timeline-org">Iranian Big Data Development Co., Tehran</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Built NLP pipeline for medical information extraction</li>
+                            <li>Developed multilingual machine translation system</li>
+                            <li>Created AI-powered keyword extraction and search systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Interested in collaboration or have questions about my research?</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="mailto:hamed.babaei@tib.eu" class="btn btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">
+                    <i class="fas fa-envelope"></i> hamed [dot] babaei [at] tib [dot] eu
+                </a>
+                <p style="margin-top: 2rem; color: var(--text-muted);">
+                    <i class="fas fa-map-marker-alt"></i> Welfengarten 1B, 30167 Hannover, Germany
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Hamed Babaei Giglou. All rights reserved.</p>
         </div>
-        <div class="nav navbar-nav right-section" style="solid-color:#a19f9f;">
-            <ul class="social-icons">
-                <li><a href="#" target="_blank">CV</a></li>
-                <li><a href="https://scholar.google.com/citations?user=Sehm6tMAAAAJ&hl=en" target="_blank"><i class="fab fa-google fa-lg"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/hamedbabaeigiglou/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>
-                <li><a href="https://www.researchgate.net/profile/Hamed-Babaei-Giglou-2" target="_blank"><i class="fab fa-researchgate fa-lg"></i></a></li>
-                <li><a href="https://twitter.com/_hamed_babaei" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-                <li><a href="https://github.com/hamedbabaei" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
-                <li><a onclick="navigate('home')" target="_blank"><img  src="img/photo.png"alt=""></a></li>
-            </ul>
-        </div>
-	  </div>
-	</nav>
+    </footer>
 
-    <div class="wrapper">
-        <div class="container" id="content"> </div>
-        <footer class="footer">
-            <p>© <span id="year"></span> hamedbabaei.github.io. All rights reserved.</p>
-        </footer>
-    </div>
-<!--     <script type="module" src="js/main.js"></script>-->
-    <script type="module" src="js/main.js"></script>
-
-
-<!--    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>-->
+    <!-- JavaScript -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
