@@ -605,6 +605,11 @@ const WEBSITE_DATA = {
                 title: "Operating Systems",
                 icon: "fa-terminal",
                 items: ["Linux (Ubuntu)", "Windows"]
+            },
+            {
+                title: "Agentic AI Coding",
+                icon: "fa-robot",
+                items: ["Claude Code", "GitHub Copilot", "Cursor"]
             }
         ],
         spokenLanguages: [
