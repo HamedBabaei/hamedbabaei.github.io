@@ -6,6 +6,11 @@
  */
 
 const WEBSITE_DATA = {
+    // Total publication count across all venues (see Google Scholar for the full list).
+    // The "publications" array below is a curated selection shown on the Publications page;
+    // this number is used for the homepage stat and may exceed that array's length.
+    publicationsTotal: 30,
+
     // Research Highlights
     highlights: [
         {
@@ -163,10 +168,42 @@ const WEBSITE_DATA = {
                 }
             ]
         },
+        {
+            id: "ava",
+            title: "AVA",
+            icon: "fa-vial",
+            image: null,
+            description: "AVA (\"Do General NLP Embeddings Capture Ontological Reasoning?\") is a benchmark of 171,007 contrastive triplets built from 163 heterogeneous OWL/RDFS ontologies, testing whether general-purpose sentence embeddings (E5, GTE, BGE, OpenAI text-embedding-3, etc.) genuinely encode ontological/logical structure or merely match lexical overlap.",
+            tags: ["Python", "Benchmark", "Ontological Reasoning", "CIKM 2025"],
+            links: [
+                {
+                    text: "GitHub",
+                    url: "https://github.com/sciknoworg/AVA",
+                    icon: "fab fa-github"
+                }
+            ]
+        },
     ],
 
     // Publications
     publications: [
+        {
+            year: 2025,
+            title: "AVA: Do General NLP Embeddings Capture Ontological Reasoning?",
+            authors: [
+                {name: "Hamed Babaei Giglou", isMe: true},
+                {name: "Jennifer D'Souza", isMe: false},
+                {name: "Sören Auer", isMe: false}
+            ],
+            venue: "The 34th ACM International Conference on Information and Knowledge Management (CIKM) 2025 - Short Paper Track",
+            links: [
+                {
+                    text: "Code",
+                    url: "https://github.com/sciknoworg/AVA",
+                    icon: "fab fa-github"
+                }
+            ]
+        },
         {
             year: 2025,
             title: "OntoAligner Meets Knowledge Graph Embedding Aligners",
@@ -466,6 +503,17 @@ const WEBSITE_DATA = {
     // Awards & Honors
     awards: [
         {
+            year: 2025,
+            title: "Best Resource Paper Award - OntoAligner",
+            organization: "European Semantic Web Conference (ESWC) 2025",
+            description: "Awarded for \"OntoAligner: A Comprehensive Modular and Robust Python Toolkit for Ontology Alignment.\"",
+            icon: "fa-award",
+            link: {
+                text: "View Award",
+                url: "https://2025.eswc-conferences.org/eswc-2025-best-paper-reviewer-awards/"
+            }
+        },
+        {
             year: 2020,
             title: "3rd Place - Digikala Cup Data Science Competition",
             organization: "Digikala (Iran's largest e-commerce company)",
@@ -497,5 +545,74 @@ const WEBSITE_DATA = {
             description: "Ranked 50th team among more than 200 teams in the 13th Iran Nationwide Internet Contest",
             icon: "fa-code"
         }
-    ]
+    ],
+
+    // Skills (from CV)
+    skills: {
+        programmingLanguages: [
+            { name: "Python", level: 5 },
+            { name: "JavaScript", level: 4 },
+            { name: "C / C++", level: 3 },
+            { name: "HTML5 & CSS3", level: 3 }
+        ],
+        categories: [
+            {
+                title: "Machine Learning",
+                icon: "fa-chart-line",
+                items: ["Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn", "MATLAB", "SciPy"]
+            },
+            {
+                title: "Deep Learning",
+                icon: "fa-brain",
+                items: ["Transformers", "Sentence-Transformers", "TensorFlow", "PyTorch"]
+            },
+            {
+                title: "Natural Language Processing",
+                icon: "fa-comments",
+                items: ["NLTK", "Gensim", "spaCy", "Pattern", "LangChain"]
+            },
+            {
+                title: "Semantic Web",
+                icon: "fa-diagram-project",
+                items: ["SPARQL", "Owlready2", "RDFLib"]
+            },
+            {
+                title: "Databases",
+                icon: "fa-database",
+                items: ["PostgreSQL", "MongoDB", "Neo4j"]
+            },
+            {
+                title: "Model Optimization",
+                icon: "fa-gauge-high",
+                items: ["ONNX", "ONNX Runtime", "Quantization"]
+            },
+            {
+                title: "Deployment",
+                icon: "fa-server",
+                items: ["Flask", "Docker", "FastAPI"]
+            },
+            {
+                title: "UI Prototyping",
+                icon: "fa-desktop",
+                items: ["Streamlit"]
+            },
+            {
+                title: "Version Control",
+                icon: "fa-code-branch",
+                items: ["Git", "GitHub", "GitLab"]
+            },
+            {
+                title: "Operating Systems",
+                icon: "fa-terminal",
+                items: ["Linux (Ubuntu)", "Windows"]
+            }
+        ],
+        spokenLanguages: [
+            { name: "English", level: 5 },
+            { name: "Azerbaijani (Azari)", level: 5 },
+            { name: "Persian (Farsi)", level: 5 },
+            { name: "Turkish", level: 4 },
+            { name: "German", level: 1 }
+        ]
+    }
 };
