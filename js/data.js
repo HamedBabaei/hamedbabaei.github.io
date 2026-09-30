@@ -6,11 +6,6 @@
  */
 
 const WEBSITE_DATA = {
-    // Total publication count across all venues (see Google Scholar for the full list).
-    // The "publications" array below is a curated selection shown on the Publications page;
-    // this number is used for the homepage stat and may exceed that array's length.
-    publicationsTotal: 30,
-
     // Research Highlights
     highlights: [
         {
@@ -172,7 +167,7 @@ const WEBSITE_DATA = {
             id: "ava",
             title: "AVA",
             icon: "fa-vial",
-            image: null,
+            image: "images/ava.png",
             description: "AVA (\"Do General NLP Embeddings Capture Ontological Reasoning?\") is a benchmark of 171,007 contrastive triplets built from 163 heterogeneous OWL/RDFS ontologies, testing whether general-purpose sentence embeddings (E5, GTE, BGE, OpenAI text-embedding-3, etc.) genuinely encode ontological/logical structure or merely match lexical overlap.",
             tags: ["Python", "Benchmark", "Ontological Reasoning", "CIKM 2025"],
             links: [
@@ -187,6 +182,50 @@ const WEBSITE_DATA = {
 
     // Publications
     publications: [
+        {
+            year: 2026,
+            title: "OntoLearner: A Modular Python Library for Ontology Learning with Large Language Models",
+            authors: [
+                {name: "Hamed Babaei Giglou", isMe: true},
+                {name: "Jennifer D'Souza", isMe: false},
+                {name: "Andrei Aioanei", isMe: false},
+                {name: "Nandana Mihindukulasooriya", isMe: false},
+                {name: "Sören Auer", isMe: false}
+            ],
+            venue: "arXiv preprint arXiv:2607.01977 (under review at Nature Communications)",
+            links: [
+                {
+                    text: "Paper",
+                    url: "https://arxiv.org/abs/2607.01977",
+                    icon: "fas fa-file-pdf"
+                },
+                {
+                    text: "Code",
+                    url: "https://github.com/sciknoworg/OntoLearner",
+                    icon: "fab fa-github"
+                },
+                {
+                    text: "PyPI",
+                    url: "https://pypi.org/project/OntoLearner/",
+                    icon: "fas fa-download"
+                },
+                {
+                    text: "Docs",
+                    url: "https://ontolearner.readthedocs.io/",
+                    icon: "fas fa-book"
+                },
+                {
+                    text: "HuggingFace",
+                    url: "https://huggingface.co/collections/SciKnowOrg/ontolearner-benchmarking",
+                    icon: "fas fa-external-link-alt"
+                },
+                {
+                    text: "Zenodo",
+                    url: "https://zenodo.org/records/22286722",
+                    icon: "fas fa-database"
+                }
+            ]
+        },
         {
             year: 2025,
             title: "AVA: Do General NLP Embeddings Capture Ontological Reasoning?",

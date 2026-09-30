@@ -1,17 +1,17 @@
 :root {
-    --bg: #07080c;
-    --bg-alt: #0c0e15;
-    --surface: rgba(255, 255, 255, 0.035);
-    --surface-strong: rgba(255, 255, 255, 0.065);
-    --border: rgba(255, 255, 255, 0.09);
-    --border-strong: rgba(255, 255, 255, 0.18);
-    --text: #f3f4f8;
-    --text-muted: #939aad;
-    --text-faint: #656c80;
-    --accent: #7c6cff;
-    --accent-2: #2dd4c8;
-    --gradient: linear-gradient(135deg, #7c6cff 0%, #2dd4c8 100%);
-    --glow: rgba(124, 108, 255, 0.35);
+    --bg: #e9ebef;
+    --bg-alt: #dfe2e7;
+    --surface: rgba(255, 255, 255, 0.55);
+    --surface-strong: rgba(255, 255, 255, 0.85);
+    --border: rgba(20, 24, 36, 0.10);
+    --border-strong: rgba(20, 24, 36, 0.20);
+    --text: #1a1d26;
+    --text-muted: #4f5566;
+    --text-faint: #7a8093;
+    --accent: #5b4bdb;
+    --accent-2: #0f9488;
+    --gradient: linear-gradient(135deg, #5b4bdb 0%, #0f9488 100%);
+    --glow: rgba(91, 75, 219, 0.25);
     --radius-sm: 8px;
     --radius-md: 14px;
     --radius-lg: 22px;
@@ -45,8 +45,8 @@ body::before {
     position: fixed;
     inset: 0;
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+        linear-gradient(rgba(20, 24, 36, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(20, 24, 36, 0.05) 1px, transparent 1px);
     background-size: 64px 64px;
     -webkit-mask-image: radial-gradient(ellipse 80% 55% at 50% 0%, black 30%, transparent 100%);
     mask-image: radial-gradient(ellipse 80% 55% at 50% 0%, black 30%, transparent 100%);
@@ -75,7 +75,7 @@ body::after {
 
 ::selection {
     background: var(--accent);
-    color: #07080c;
+    color: #ffffff;
 }
 
 a {
@@ -89,7 +89,7 @@ header {
     left: 0;
     right: 0;
     padding: 1.1rem 2rem;
-    background: rgba(7, 8, 12, 0.72);
+    background: rgba(233, 235, 239, 0.78);
     backdrop-filter: blur(16px) saturate(140%);
     -webkit-backdrop-filter: blur(16px) saturate(140%);
     border-bottom: 1px solid var(--border);
@@ -130,7 +130,7 @@ nav {
     font-family: var(--font-head);
     font-weight: 700;
     font-size: 0.82rem;
-    color: #07080c;
+    color: #ffffff;
     letter-spacing: 0.3px;
     flex-shrink: 0;
 }
@@ -303,7 +303,7 @@ main {
 .social-links a:hover {
     background: var(--gradient);
     border-color: transparent;
-    color: #07080c;
+    color: #ffffff;
     transform: translateY(-3px);
     box-shadow: 0 8px 22px var(--glow);
 }
@@ -329,7 +329,7 @@ main {
 
 .btn-primary {
     background: var(--gradient);
-    color: #07080c;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -369,7 +369,7 @@ main {
     object-fit: cover;
     border: 3px solid var(--bg);
     outline: 2px solid var(--border-strong);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.02);
+    box-shadow: 0 20px 60px rgba(20, 24, 36, 0.12), 0 0 0 1px rgba(255, 255, 255, 0.02);
     animation: photoFloat 6s ease-in-out infinite;
 }
 
@@ -396,7 +396,7 @@ main {
     border-radius: var(--radius-md);
     padding: 1.3rem 1.5rem;
     backdrop-filter: blur(12px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px rgba(20, 24, 36, 0.10);
     animation: float 6s ease-in-out infinite;
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
@@ -431,37 +431,70 @@ main {
     color: var(--text-muted);
 }
 
-/* Stats */
-.stats-grid {
+/* About */
+.about-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 1.5rem;
-    padding: 2.2rem 0;
-    margin-bottom: 7rem;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
 }
 
-.stat {
+.about-text p {
+    color: var(--text-muted);
+    font-size: 1.02rem;
+    margin-bottom: 1.1rem;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+.about-text a,
+.about-facts a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.about-text a:hover,
+.about-facts a:hover {
+    text-decoration: underline;
+}
+
+.about-facts {
+    list-style: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 0.4rem 1.4rem;
+}
+
+.about-facts li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1.1rem 0;
+    font-size: 0.92rem;
+}
+
+.about-facts li + li {
+    border-top: 1px solid var(--border);
+}
+
+.about-facts i {
+    color: var(--accent-2);
+    width: 1.1rem;
+    margin-top: 0.2rem;
     text-align: center;
 }
 
-.stat-number {
+.about-facts span {
     display: block;
-    font-family: var(--font-head);
-    font-size: 2.4rem;
-    font-weight: 600;
-    background: var(--gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.stat-label {
-    display: block;
-    margin-top: 0.3rem;
-    font-size: 0.85rem;
-    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-faint);
+    margin-bottom: 0.2rem;
 }
 
 /* Section styles */
@@ -552,7 +585,7 @@ section {
 .page-header p a {
     color: var(--accent-2);
     text-decoration: none;
-    border-bottom: 1px solid rgba(45, 212, 200, 0.35);
+    border-bottom: 1px solid rgba(15, 148, 136, 0.35);
 }
 
 .page-header p a:hover {
@@ -562,15 +595,15 @@ section {
 /* Explore grid (home quick links) */
 .explore-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1rem;
 }
 
 .explore-card {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
-    padding: 1.8rem;
+    padding: 1.4rem 1.2rem;
     text-decoration: none;
     color: var(--text);
     display: flex;
@@ -584,7 +617,7 @@ section {
 .explore-card:hover {
     transform: translateY(-4px);
     border-color: var(--border-strong);
-    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 14px 40px rgba(20, 24, 36, 0.10);
 }
 
 .explore-icon {
@@ -602,13 +635,13 @@ section {
 
 .explore-card h3 {
     font-family: var(--font-head);
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 500;
 }
 
 .explore-card p {
     color: var(--text-muted);
-    font-size: 0.92rem;
+    font-size: 0.86rem;
     flex-grow: 1;
 }
 
@@ -660,7 +693,7 @@ section {
 .research-card:hover {
     transform: translateY(-5px);
     border-color: var(--border-strong);
-    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 16px 44px rgba(20, 24, 36, 0.12);
 }
 
 .research-icon {
@@ -765,7 +798,7 @@ section {
     transform: translateX(6px);
     border-color: var(--border-strong);
     border-left-color: var(--accent-2);
-    box-shadow: -6px 6px 24px rgba(0, 0, 0, 0.3);
+    box-shadow: -6px 6px 24px rgba(20, 24, 36, 0.10);
 }
 
 .pub-year {
@@ -864,7 +897,7 @@ section {
 .award-card:hover {
     transform: translateY(-5px);
     border-color: var(--border-strong);
-    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 14px 40px rgba(20, 24, 36, 0.10);
 }
 
 .award-icon {
@@ -980,7 +1013,7 @@ section {
 .skill-card:hover {
     transform: translateY(-4px);
     border-color: var(--border-strong);
-    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 14px 40px rgba(20, 24, 36, 0.10);
 }
 
 .skill-icon {
@@ -1109,7 +1142,7 @@ section {
 .contact-card:hover {
     border-color: var(--border-strong);
     transform: translateY(-4px);
-    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 14px 40px rgba(20, 24, 36, 0.10);
 }
 
 .contact-icon {
@@ -1256,6 +1289,7 @@ footer {
         display: flex;
     }
 
+    .about-grid,
     .research-grid,
     .awards-grid,
     .explore-grid,
@@ -1300,9 +1334,5 @@ footer {
 
     .visual-card p {
         font-size: 0.78rem;
-    }
-
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
     }
 }

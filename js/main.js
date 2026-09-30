@@ -23,10 +23,10 @@ function initHeaderScroll() {
 
     const applyState = () => {
         if (window.pageYOffset > 40) {
-            header.style.background = 'rgba(7, 8, 12, 0.92)';
-            header.style.boxShadow = '0 4px 24px rgba(0, 0, 0, 0.35)';
+            header.style.background = 'rgba(233, 235, 239, 0.94)';
+            header.style.boxShadow = '0 4px 24px rgba(20, 24, 36, 0.10)';
         } else {
-            header.style.background = 'rgba(7, 8, 12, 0.72)';
+            header.style.background = 'rgba(233, 235, 239, 0.78)';
             header.style.boxShadow = 'none';
         }
     };
@@ -224,26 +224,6 @@ function loadSkills() {
     }
 }
 
-// Populate homepage stat counters from the data source
-function loadStats() {
-    const container = document.getElementById('statsContainer');
-    if (!container) return;
-
-    const stats = [
-        { number: (WEBSITE_DATA.publicationsTotal || WEBSITE_DATA.publications.length) + '+', label: 'Publications' },
-        { number: WEBSITE_DATA.highlights.length, label: 'Research Projects & Tools' },
-        { number: WEBSITE_DATA.awards.length, label: 'Awards & Honors' },
-        { number: new Date().getFullYear() - 2019 + '+', label: 'Years in AI Research' }
-    ];
-
-    container.innerHTML = stats.map(stat => `
-        <div class="stat">
-            <span class="stat-number">${stat.number}</span>
-            <span class="stat-label">${stat.label}</span>
-        </div>
-    `).join('');
-}
-
 // Fill in the current year in the footer
 function initFooterYear() {
     const el = document.getElementById('year');
@@ -254,7 +234,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     initHeaderScroll();
     initFooterYear();
-    loadStats();
     loadHighlights();
     loadPublications();
     loadAwards();
